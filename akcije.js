@@ -22,6 +22,7 @@ $(document).ready(function(){
     $("#statmat").hide();
     $("#ip1mat").hide();
     $("#vimat").hide();
+    $("#kiaamat").hide();
 
     $("#p1").on("click", function(){
         $("#p1mat").slideToggle("slow");
@@ -109,6 +110,10 @@ $(document).ready(function(){
 
     $("#vi").on("click", function(){
         $("#vimat").slideToggle("slow");
+    });
+
+    $("#kiaa").on("click", function(){
+        $("#kiaamat").slideToggle("slow");
     });
 
 });
