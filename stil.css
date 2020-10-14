@@ -104,6 +104,7 @@ body {
     opacity: 0.5;
 }
 
+/*
 #opis {
     position: relative;
     top: -60px;
@@ -111,12 +112,15 @@ body {
     font-family: 'Bai Jamjuree Light';
     font-size: 18px;
 }
+*/
 
 nav {
-    position: relative;
+    position: absolute;
+    left: -5%;
     top: 380px;
-    width: 100%;
+    width: 80%;
     font-family: 'Bai Jamjuree Light';
+    align-content: center;
 }
 
 h3 {
@@ -124,31 +128,40 @@ h3 {
 }
 
 #prva {
-  /* border: 2px solid black;
+    /*border: 2px solid black;
     height: 450px; */
-    margin: 5px 20px 5px 20px;
+    margin: 5px 50px 5px 20px;
+    position: relative;
+    left: 20%;
 }
 
 #druga {
-   /* border: 2px solid black; 
+    /*border: 2px solid black; 
     height: 450px;*/
     vertical-align: top;
     margin: 5px 10px 5px 20px;
+    position: relative;
+    left: 20%;
 }
 
 #treca {
-   /* border: 2px solid black; 
-    height: 450px;*/
+    /*border: 2px solid black;
+    height: 450px; */
+    vertical-align: top;
+    margin: 5px 50px 5px 20px;
+    position: relative;
+    left: 20%;
+}
+
+#cetvrta {
+    /*border: 2px solid black;
+    height: 450px; */
     vertical-align: top;
     margin: 5px 10px 5px 20px;
+    position: relative;
+    left: 20%;
 }
-/*
-#cetvrta {
-    border: 2px solid black;
-    height: 450px;
-    margin: 5px 20px 5px 0px;
-}
-*/
+
 .predmeti {
     list-style: url('ikonice/komp.jpg');
     cursor: pointer;

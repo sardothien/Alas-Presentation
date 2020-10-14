@@ -23,6 +23,7 @@ $(document).ready(function(){
     $("#ip1mat").hide();
     $("#vimat").hide();
     $("#kiaamat").hide();
+    $("#verovmat").hide();
 
     $("#p1").on("click", function(){
         $("#p1mat").slideToggle("slow");
@@ -114,6 +115,10 @@ $(document).ready(function(){
 
     $("#kiaa").on("click", function(){
         $("#kiaamat").slideToggle("slow");
+    });
+
+    $("#verov").on("click", function(){
+        $("#verovmat").slideToggle("slow");
     });
 
 });
