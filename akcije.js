@@ -24,6 +24,7 @@ $(document).ready(function(){
     $("#vimat").hide();
     $("#kiaamat").hide();
     $("#verovmat").hide();
+    $("#ppgrmat").hide();
 
     $("#p1").on("click", function(){
         $("#p1mat").slideToggle("slow");
@@ -119,6 +120,10 @@ $(document).ready(function(){
 
     $("#verov").on("click", function(){
         $("#verovmat").slideToggle("slow");
+    });
+
+    $("#ppgr").on("click", function(){
+        $("#ppgrmat").slideToggle("slow");
     });
 
 });
