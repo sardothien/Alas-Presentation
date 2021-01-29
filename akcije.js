@@ -26,6 +26,9 @@ $(document).ready(function(){
     $("#verovmat").hide();
     $("#ppgrmat").hide();
     $("#rimat").hide();
+    $("#rsmat").hide();
+    $("#azrsmat").hide();
+    $("#fpmat").hide();
 
     $("#p1").on("click", function(){
         $("#p1mat").slideToggle("slow");
@@ -129,6 +132,18 @@ $(document).ready(function(){
 
     $("#ri").on("click", function(){
         $("#rimat").slideToggle("slow");
+    });
+
+    $("#rs").on("click", function(){
+        $("#rsmat").slideToggle("slow");
+    });
+
+    $("#azrs").on("click", function(){
+        $("#azrsmat").slideToggle("slow");
+    });
+
+    $("#fp").on("click", function(){
+        $("#fpmat").slideToggle("slow");
     });
 
 });

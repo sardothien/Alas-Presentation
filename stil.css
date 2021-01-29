@@ -104,6 +104,17 @@ body {
     opacity: 0.5;
 }
 
+#gitlabSlika {
+    position: relative;
+    top: -15px;
+    width: 55px;
+    left: 30px;
+}
+
+#gitlabSlika:hover {
+    opacity: 0.5;
+}
+
 /*
 #opis {
     position: relative;
