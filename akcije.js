@@ -29,6 +29,8 @@ $(document).ready(function(){
     $("#rsmat").hide();
     $("#azrsmat").hide();
     $("#fpmat").hide();
+    $("#kkmat").hide();
+    $("#projbpmat").hide();
 
     $("#p1").on("click", function(){
         $("#p1mat").slideToggle("slow");
@@ -146,4 +148,11 @@ $(document).ready(function(){
         $("#fpmat").slideToggle("slow");
     });
 
+    $("#kk").on("click", function(){
+        $("#kkmat").slideToggle("slow");
+    });
+
+    $("#projbp").on("click", function(){
+        $("#projbpmat").slideToggle("slow");
+    });
 });
