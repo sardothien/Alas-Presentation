@@ -5,37 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mina Milošević 81/2017</title>
-    <link rel="stylesheet" type="text/css" href="stil.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="jquery-3.4.1.js"></script>
-    <script type="text/javascript" src="akcije.js"></script>
+    <script type="text/javascript" src="actions.js"></script>
 
     <style type="text/css">
         @media screen and (max-width: 400px) {
-            #nav, #prva, #druga, #treca, #cetvrta {
+            #nav, #first, #second, #third, #fourth {
                 display: block;
                 width: 100%;
             }
         }
 
         @media screen and (min-width: 401px) and (max-width: 700px) {
-            #naslov {
+            #header {
                 width: 100%;
             }
-            #prva, #druga {
+            #first, #second {
                 display: inline-block;
                 width: 100%;
             }
-            #treca, #cetvrta {
+            #third, #fourth {
                 display: inline-block;
                 width: 100%;
             }
         }
 
         @media screen and (min-width: 701px){
-            #naslov {
+            #header {
                 width: 100%;
             }
-            #prva, #druga, #treca, #cetvrta {
+            #first, #second, #third, #fourth {
                 display: inline-block;
                 width: 40%;
             }
@@ -46,22 +46,22 @@
 <body>
 
     <header>
-    <div id="goreBelo">
+    <div id="whiteHeader">
         <!-- hitwebcounter Code START -->
         <a href="https://www.hitwebcounter.com" target="_blank">
             <img src="https://hitwebcounter.com/counter/counter.php?page=7184769&style=0006&nbdigits=3&type=page&initCount=3" title="Free-Counter" Alt="hitwebcounter"   border="0" >
         </a>
     </div>
 
-    <div id="naslov">
-        <p id="imePrezime">Mina Milošević</p>
+    <div id="header">
+        <p id="name">Mina Milošević</p>
 
-        <p class="ikonice">
-        <a href="http://www.matf.bg.ac.rs/" target="_blank"><img alt="matf" src="ikonice/matf.png" title="matf sajt" id="matfSlika"></a> 
-        <a href="mailto:mi17081@alas.matf.bg.ac.rs" target="_blank"><img alt="alas" src="ikonice/alas.png" title="alas mail" id="alasSlika"></a>
-        <a href="mailto:mina.milosevic998@gmail.com" target="_blank"><img alt="gmail" src="ikonice/gmail.png" title="gmail" id="gmailSlika"></a>
-        <a href="https://github.com/sardothien" target="_blank"><img alt="github" src="ikonice/github.png" title="github" id="githubSlika"></a> 
-        <a href="https://gitlab.com/mina.milosevic" target="_blank"><img alt="gitlab" src="ikonice/gitlab.png" title="gitlab" id="gitlabSlika"></a> 
+        <p class="icons">
+        <a href="http://www.matf.bg.ac.rs/" target="_blank"><img alt="matf" src="icons/matf.png" title="matf sajt" id="matfPicture"></a> 
+        <a href="mailto:mi17081@alas.matf.bg.ac.rs" target="_blank"><img alt="alas" src="icons/alas.png" title="alas mail" id="alasPicture"></a>
+        <a href="mailto:mina.milosevic998@gmail.com" target="_blank"><img alt="gmail" src="icons/gmail.png" title="gmail" id="gmailPicture"></a>
+        <a href="https://github.com/sardothien" target="_blank"><img alt="github" src="icons/github.png" title="github" id="githubPicture"></a> 
+        <a href="https://gitlab.com/mina.milosevic" target="_blank"><img alt="gitlab" src="icons/gitlab.png" title="gitlab" id="gitlabPicture"></a> 
         </p>
 
     </div>
@@ -69,172 +69,163 @@
 
     <nav>
 
-        <div class="godine" id="prva">
+        <div class="godine" id="first">
             <h3>1. godina (2017/2018)</h3>
             <ul>
-                <!--
-                <li class="predmeti">Linearna algebra i analiticka geometrija</li>
-                <li class="predmeti">Diskretne strukture 1</li>
-                <li class="predmeti">Diskretne strukture 2</li>
-                -->
-                <li class="predmeti" id="a1">Analiza 1</li>
+                <li class="courses" id="a1">Analiza 1</li>
                 <ul id="a1mat">
-                    <li class="materijali"><a href="materijali/1. godina/a1vezbe.pdf" target="_blank">vežbe (sveska)</a></li>
+                    <li class="materials"><a href="materials/1. godina/a1vezbe.pdf" target="_blank">vežbe (sveska)</a></li>
                 </ul>
-                <li class="predmeti" id="engl1">Engleski jezik 1</li>
+                <li class="courses" id="engl1">Engleski jezik 1</li>
                 <ul id="engl1mat">
-                    <li class="materijali"><a href="materijali/1. godina/engleski1.pdf" target="_blank">'The Man Who Escaped' (odgovori)</a></li>
+                    <li class="materials"><a href="materials/1. godina/engleski1.pdf" target="_blank">'The Man Who Escaped' (odgovori)</a></li>
                 </ul>
-                <li class="predmeti" id="engl2">Engleski jezik 2</li>
+                <li class="courses" id="engl2">Engleski jezik 2</li>
                 <ul id="engl2mat">
-                    <li class="materijali"><a href="materijali/1. godina/engleski2.pdf" target="_blank">'Meeting In Rio' (odgovori)</a></li>
+                    <li class="materials"><a href="materials/1. godina/engleski2.pdf" target="_blank">'Meeting In Rio' (odgovori)</a></li>
                 </ul>
-                <li class="predmeti" id="p1">Programiranje 1</li>
+                <li class="courses" id="p1">Programiranje 1</li>
                 <ul id="p1mat">
-                    <li class="materijali"><a href="materijali/1. godina/urm.pdf" target="_blank">vežbe (urm)</a></li>
-                    <li class="materijali"><a href="materijali/1. godina/p1.zip" target="_blank">vežbe i rokovi</a></li>
-                    <li class="materijali"><a href="materijali/1. godina/p1pitanja.pdf" target="_blank">odgovori na pitanja iz knjige</a></li>
+                    <li class="materials"><a href="materials/1. godina/urm.pdf" target="_blank">vežbe (urm)</a></li>
+                    <li class="materials"><a href="materials/1. godina/p1.zip" target="_blank">vežbe i rokovi</a></li>
+                    <li class="materials"><a href="materials/1. godina/p1pitanja.pdf" target="_blank">odgovori na pitanja iz knjige</a></li>
                 </ul>
-                <li class="predmeti" id="p2">Programiranje 2</li>
+                <li class="courses" id="p2">Programiranje 2</li>
                 <ul id="p2mat">
-                    <li class="materijali" ><a href="materijali/1. godina/p2.zip" target="_blank">vežbe i rokovi</a></li>
-                    <li class="materijali"><a href="materijali/1. godina/p2pitanja.pdf" target="_blank">odgovori na pitanja iz knjige</a></li>
+                    <li class="materials" ><a href="materials/1. godina/p2.zip" target="_blank">vežbe i rokovi</a></li>
+                    <li class="materials"><a href="materials/1. godina/p2pitanja.pdf" target="_blank">odgovori na pitanja iz knjige</a></li>
                 </ul>
-                <li class="predmeti" id="uor1">Uvod u organizaciju i arhitekturu računara 1</li>
+                <li class="courses" id="uor1">Uvod u organizaciju i arhitekturu računara 1</li>
                 <ul id="uor1mat">
-                    <li class="materijali"><a href="materijali/1. godina/uor1vezbe.pdf" target="_blank">vežbe (sveska)</a></li>
-                    <li class="materijali"><a href="materijali/1. godina/uor1pitanja.pdf" target="_blank">česta pitanja i odgovori sa rokova</a></li>
+                    <li class="materials"><a href="materials/1. godina/uor1vezbe.pdf" target="_blank">vežbe (sveska)</a></li>
+                    <li class="materials"><a href="materials/1. godina/uor1pitanja.pdf" target="_blank">česta pitanja i odgovori sa rokova</a></li>
                 </ul>
-                <li class="predmeti" id="uor2">Uvod u organizaciju i arhitekturu računara 2</li>
+                <li class="courses" id="uor2">Uvod u organizaciju i arhitekturu računara 2</li>
                 <ul id="uor2mat">
-                    <li class="materijali"><a href="materijali/1. godina/logisim.zip" target="_blank">vežbe (Logisim)</a></li>
-                    <li class="materijali"><a href="materijali/1. godina/asembler.zip" target="_blank">vežbe (asembler)</a></li>
-                    <li class="materijali"><a href="materijali/1. godina/uor2pitanja.pdf" target="_blank">odgovori na ispitna pitanja</a></li>
+                    <li class="materials"><a href="materials/1. godina/logisim.zip" target="_blank">vežbe (Logisim)</a></li>
+                    <li class="materials"><a href="materials/1. godina/asembler.zip" target="_blank">vežbe (asembler)</a></li>
+                    <li class="materials"><a href="materials/1. godina/uor2pitanja.pdf" target="_blank">odgovori na ispitna pitanja</a></li>
                 </ul>
             </ul>
         </div>
 
-        <div class="godine" id="druga">
+        <div class="godine" id="second">
             <h3>2. godina (2018/2019)</h3>
             <ul>
-                <!--
-                <li class="predmeti">Analiza 3</li>
-                -->
-                <li class="predmeti" id="alg1">Algebra 1</li>
+                <li class="courses" id="alg1">Algebra 1</li>
                 <ul id="alg1mat">
-                    <li class="materijali"><a href="materijali/2. godina/algebra odgovori.pdf" target="_blank">odgovori na ispitna pitanja</a></li>
+                    <li class="materials"><a href="materials/2. godina/algebra odgovori.pdf" target="_blank">odgovori na ispitna pitanja</a></li>
                 </ul>
-                <li class="predmeti" id="a2">Analiza 2</li>
+                <li class="courses" id="a2">Analiza 2</li>
                 <ul id="a2mat">
-                    <li class="materijali"><a href="materijali/2. godina/a2.pdf" target="_blank">predavanja (sveska)</a></li>
+                    <li class="materials"><a href="materials/2. godina/a2.pdf" target="_blank">predavanja (sveska)</a></li>
                 </ul>
-                <li class="predmeti" id="geom">Geometrija</li>
+                <li class="courses" id="geom">Geometrija</li>
                 <ul id="geommat">
-                    <li class="materijali"><a href="materijali/2. godina/geometrija.pdf" target="_blank">predavanja (sveska)</a></li>
+                    <li class="materials"><a href="materials/2. godina/geometrija.pdf" target="_blank">predavanja (sveska)</a></li>
                 </ul>   
-                <li class="predmeti" id="os">Operativni sistemi</li>
+                <li class="courses" id="os">Operativni sistemi</li>
                 <ul id="osmat">
-                    <li class="materijali"><a href="materijali/2. godina/osvezbe.zip" target="_blank">vežbe i rokovi</a></li> 
-                    <li class="materijali"><a href="materijali/2. godina/OS_ispitna_pitanja.pdf" target="_blank">česta pitanja sa usmenog</a></li>
+                    <li class="materials"><a href="materials/2. godina/osvezbe.zip" target="_blank">vežbe i rokovi</a></li> 
+                    <li class="materials"><a href="materials/2. godina/OS_ispitna_pitanja.pdf" target="_blank">česta pitanja sa usmenog</a></li>
                 </ul>                    
-                <li class="predmeti" id="oas">Osnovi astronomije</li>
+                <li class="courses" id="oas">Osnovi astronomije</li>
                 <ul id="oasmat">
-                    <li class="materijali"><a href="materijali/2. godina/astronomija_seminarski.pdf" target="_blank">seminarski</a></li>
-                    <li class="materijali"><a href="materijali/2. godina/Astronomija_vezbe.pdf" target="_blank">vežbe (skripta)</a></li>
+                    <li class="materials"><a href="materials/2. godina/astronomija_seminarski.pdf" target="_blank">seminarski</a></li>
+                    <li class="materials"><a href="materials/2. godina/Astronomija_vezbe.pdf" target="_blank">vežbe (skripta)</a></li>
                 </ul>
-                <li class="predmeti" id="aisp">Algoritmi i strukture podataka</li>
+                <li class="courses" id="aisp">Algoritmi i strukture podataka</li>
                 <ul id="aispmat">
-                    <li class="materijali"><a href="materijali/2. godina/aispvezbe.zip" target="_blank">vežbe</a></li>
-                    <li class="materijali"><a href="materijali/2. godina/AiSP_odgovori_na_pitanja.pdf" target="_blank">odgovori na ispitna pitanja</a></li>
+                    <li class="materials"><a href="materials/2. godina/aispvezbe.zip" target="_blank">vežbe</a></li>
+                    <li class="materials"><a href="materials/2. godina/AiSP_odgovori_na_pitanja.pdf" target="_blank">odgovori na ispitna pitanja</a></li>
                 </ul>
-                <li class="predmeti" id="oop">Objektno orijentisano programiranje</li>
+                <li class="courses" id="oop">Objektno orijentisano programiranje</li>
                 <ul id="oopmat">
-                    <li class="materijali"><a href="materijali/2. godina/oopvezbe.zip" target="_blank">vežbe i rokovi</a></li>
+                    <li class="materials"><a href="materials/2. godina/oopvezbe.zip" target="_blank">vežbe i rokovi</a></li>
                 </ul>
             </ul>
         </div>
 
-        <div class="godine" id="treca">
+        <div class="godine" id="third">
             <h3>3. godina (2019/2020)</h3>
             <ul>
-                <li class="predmeti" id="stat">Statistika</li>
+                <li class="courses" id="stat">Statistika</li>
                 <ul id="statmat">
-                    <li class="materijali"><a href="materijali/3. godina/statvezbe.zip" target="_blank">vežbe (kodovi)</a></li>
-                    <li class="materijali"><a href="materijali/3. godina/statvezbe.pdf" target="_blank">vežbe (sveska)</a></li>
+                    <li class="materials"><a href="materials/3. godina/statvezbe.zip" target="_blank">vežbe (kodovi)</a></li>
+                    <li class="materials"><a href="materials/3. godina/statvezbe.pdf" target="_blank">vežbe (sveska)</a></li>
                 </ul>
-                <li class="predmeti" id="verov">Verovatnoća</li>
+                <li class="courses" id="verov">Verovatnoća</li>
                 <ul id="verovmat">
-                    <li class="materijali"><a href="materijali/3. godina/verovatnoca_vezbe.pdf" target="_blank">vežbe (sveska)</a></li>
-                    <!-- <li class="materijali"><a href="" target="_blank" style="color: slategrey;">predavanja (sveska)</a></li> -->
+                    <li class="materials"><a href="materials/3. godina/verovatnoca_vezbe.pdf" target="_blank">vežbe (sveska)</a></li>
                 </ul>
-                <li class="predmeti" id="rg">Računarska grafika</li>
+                <li class="courses" id="rg">Računarska grafika</li>
                 <ul id="rgmat">
-                    <li class="materijali"><a href="https://github.com/MATF-RG19/RG44-x-run" target="_blank">projekat</a></li>
-                    <li class="materijali"><a href="materijali/3. godina/rg_pitanja_iz_knjige.pdf" target="_blank">odgovori na pitanja iz knjige</a></li>
+                    <li class="materials"><a href="https://github.com/MATF-RG19/RG44-x-run" target="_blank">projekat</a></li>
+                    <li class="materials"><a href="materials/3. godina/rg_pitanja_iz_knjige.pdf" target="_blank">odgovori na pitanja iz knjige</a></li>
                 </ul>
-                <li class="predmeti" id="vi">Veštačka inteligencija</li>
+                <li class="courses" id="vi">Veštačka inteligencija</li>
                 <ul id="vimat">
-                    <li class="materijali"><a href="materijali/3. godina/vi_odgovori.pdf" target="_blank">odgovori na pitanja iz knjige</a></li>
+                    <li class="materials"><a href="materials/3. godina/vi_odgovori.pdf" target="_blank">odgovori na pitanja iz knjige</a></li>
                 </ul>
-                <li class="predmeti" id="ip1">Istraživanje podataka 1</li>
+                <li class="courses" id="ip1">Istraživanje podataka 1</li>
                 <ul id="ip1mat">
-                    <li class="materijali"><a href="materijali/3. godina/ip1vezbe.zip" target="_blank">vežbe (Python i SPSS)</a></li>
+                    <li class="materials"><a href="materials/3. godina/ip1vezbe.zip" target="_blank">vežbe (Python i SPSS)</a></li>
                 </ul>
-                <li class="predmeti" id="pp">Programske paradigme</li>
+                <li class="courses" id="pp">Programske paradigme</li>
                 <ul id="ppmat">
-                    <li class="materijali"><a href="materijali/3. godina/ppvezbe.zip" target="_blank">vežbe i rokovi</a></li>
-                    <li class="materijali"><a href="materijali/3. godina/lambdaRacun.pdf" target="_blank">zadaci iz lambda računa</a></li>
-                    <li class="materijali"><a href="materijali/3. godina/pp_odgovori.pdf" target="_blank">odgovori na pitanja sa prezentacija</a></li>
+                    <li class="materials"><a href="materials/3. godina/ppvezbe.zip" target="_blank">vežbe i rokovi</a></li>
+                    <li class="materials"><a href="materials/3. godina/lambdaRacun.pdf" target="_blank">zadaci iz lambda računa</a></li>
+                    <li class="materials"><a href="materials/3. godina/pp_odgovori.pdf" target="_blank">odgovori na pitanja sa prezentacija</a></li>
                 </ul>
-                <li class="predmeti" id="rbp">Relacione baze podataka</li>
+                <li class="courses" id="rbp">Relacione baze podataka</li>
                 <ul id="rbpmat">
-                    <li class="materijali"><a href="materijali/3. godina/sql.zip" target="_blank">vežbe</a></li>
-                    <li class="materijali"><a href="materijali/3. godina/RBP_odgovori_na_pitanja.pdf" target="_blank">beleške sa predavanja</a></li>
+                    <li class="materials"><a href="materials/3. godina/sql.zip" target="_blank">vežbe</a></li>
+                    <li class="materials"><a href="materials/3. godina/RBP_odgovori_na_pitanja.pdf" target="_blank">beleške sa predavanja</a></li>
                 </ul>
-                <li class="predmeti" id="unm">Uvod u numeričku matematiku</li>
+                <li class="courses" id="unm">Uvod u numeričku matematiku</li>
                 <ul id="unmmat">
-                    <li class="materijali"><a href="materijali/3. godina/matlab.zip" target="_blank">vežbe (Matlab)</a></li>
-                    <li class="materijali"><a href="materijali/3. godina/unm_predavanja.pdf" target="_blank">predavanja (sveska)</a></li>
+                    <li class="materials"><a href="materials/3. godina/matlab.zip" target="_blank">vežbe (Matlab)</a></li>
+                    <li class="materials"><a href="materials/3. godina/unm_predavanja.pdf" target="_blank">predavanja (sveska)</a></li>
                 </ul>
-                <li class="predmeti" id="ppj">Prevođenje programskih jezika</li>
+                <li class="courses" id="ppj">Prevođenje programskih jezika</li>
                 <ul id="ppjmat">
-                    <li class="materijali"><a href="materijali/3. godina/ppjvezbe.zip" target="_blank">vežbe i rokovi</a></li>
-                    <li class="materijali"><a href="materijali/3. godina/ppjpredavanja.pdf" target="_blank">predavanja (sveska)</a></li>
+                    <li class="materials"><a href="materials/3. godina/ppjvezbe.zip" target="_blank">vežbe i rokovi</a></li>
+                    <li class="materials"><a href="materials/3. godina/ppjpredavanja.pdf" target="_blank">predavanja (sveska)</a></li>
                 </ul>
             </ul>
         </div>
 
-        <div class="godine" id="cetvrta">
+        <div class="godine" id="fourth">
             <h3>4. godina (2020/2021)</h3>
             <ul>
-                <li class="predmeti" id="rs">Razvoj softvera</li>
+                <li class="courses" id="rs">Razvoj softvera</li>
                 <ul id="rsmat">
-                    <li class="materijali"><a href="https://gitlab.com/matf-bg-ac-rs/course-rs/projects-2020-2021/06-timesweeper" target="_blank">projekat</a></li>
+                    <li class="materials"><a href="https://gitlab.com/matf-bg-ac-rs/course-rs/projects-2020-2021/06-timesweeper" target="_blank">projekat</a></li>
                 </ul>
-                <li class="predmeti" id="azrs">Alati za razvoj softvera</li>
+                <li class="courses" id="azrs">Alati za razvoj softvera</li>
                 <ul id="azrsmat">
-                    <li class="materijali"><a href="materijali/4. godina/azrs_predavanja.pdf" target="_blank">beleške sa predavanja</a></li>
+                    <li class="materials"><a href="materials/4. godina/azrs_predavanja.pdf" target="_blank">beleške sa predavanja</a></li>
                 </ul>
-                <li class="predmeti" id="ri">Računarska inteligencija</li>
+                <li class="courses" id="ri">Računarska inteligencija</li>
                 <ul id="rimat">
-                    <li class="materijali"><a href="https://github.com/sardothien/RI-RegexGolf" target="_blank">projekat</a></li>
+                    <li class="materials"><a href="https://github.com/sardothien/RI-RegexGolf" target="_blank">projekat</a></li>
                 </ul> 
-                <li class="predmeti" id="kk">Konstrukcija kompilatora</li>
+                <li class="courses" id="kk">Konstrukcija kompilatora</li>
                 <ul id="kkmat">
-                    <li class="materijali"><a href="materijali/4. godina/KK_odgovori_na_pitanja.pdf" target="_blank">odgovori na ispitna pitanja</a></li>
+                    <li class="materials"><a href="materials/4. godina/KK_odgovori_na_pitanja.pdf" target="_blank">odgovori na ispitna pitanja</a></li>
                 </ul> 
-                <li class="predmeti" id="fp">Funkcionalno programiranje</li>
+                <li class="courses" id="fp">Funkcionalno programiranje</li>
                 <ul id="fpmat">
-                    <li class="materijali"><a href="materijali/4. godina/fp_predavanja.pdf" target="_blank">beleške sa predavanja</a></li>
+                    <li class="materials"><a href="materials/4. godina/fp_predavanja.pdf" target="_blank">beleške sa predavanja</a></li>
                 </ul>
-                <li class="predmeti" id="projbp">Projektovanje baza podataka</li>
+                <li class="courses" id="projbp">Projektovanje baza podataka</li>
                 <ul id="projbpmat">
-                    <li class="materijali"><a href="materijali/4. godina/PBP_odgovori_na_pitanja.pdf" target="_blank">odgovori na ispitna pitanja</a></li>
+                    <li class="materials"><a href="materials/4. godina/PBP_odgovori_na_pitanja.pdf" target="_blank">odgovori na ispitna pitanja</a></li>
                 </ul> 
-                <li class="predmeti" id="ppgr">Primena projektivne geometrije u računarstvu</li>
+                <li class="courses" id="ppgr">Primena projektivne geometrije u računarstvu</li>
                 <ul id="ppgrmat">
-                    <li class="materijali"><a href="https://github.com/sardothien/MATF-materijali/tree/master/4.%20godina/ppgr%20domaci" target="_blank">domaći</a></li>
-                    <li class="materijali"><a href="materijali/4. godina/ppgr_vezbe.pdf" target="_blank">vežbe (sveska)</a></li>
+                    <li class="materials"><a href="https://github.com/sardothien/MATF-materijali/tree/master/4.%20godina/ppgr%20domaci" target="_blank">domaći</a></li>
+                    <li class="materials"><a href="materials/4. godina/ppgr_vezbe.pdf" target="_blank">vežbe (sveska)</a></li>
                 </ul>
             </ul>
         </div>
@@ -242,7 +233,7 @@
 
     </nav>
 
-    <!-- TODO: footer sa informacijama -->
+    <!-- TODO: footer with additional information -->
 
 </body>
 </html>

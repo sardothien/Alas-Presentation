@@ -1,27 +1,26 @@
 @font-face {
     font-family: 'Bai Jamjuree Bold';
-    src: url('fontovi/BaiJamjuree-Bold.ttf');
+    src: url('fonts/BaiJamjuree-Bold.ttf');
 }
 
 @font-face {
     font-family: 'Bai Jamjuree Light';
-    src: url('fontovi/BaiJamjuree-Light.ttf');
+    src: url('fonts/BaiJamjuree-Light.ttf');
 }
 
 body {
     background-color: white;
 }
 
-#goreBelo {
+#whiteHeader {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 50px;
-    /*border: 2px solid black;*/
 }
 
-#naslov {
+#header {
     position: absolute;
     top: 50px;
     left: 0;
@@ -31,7 +30,7 @@ body {
     color: white;
 }
 
-#imePrezime {
+#name {
     text-align: center;
     font-size: 55px;
     font-family: 'Bai Jamjuree Bold';
@@ -39,91 +38,64 @@ body {
     top: 0px;
 }
 
-/* .mejl {
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Bai Jamjuree Light';
-    position: relative;
-    top: -10px;
-}
-
-#mejl2 {
-    position: relative;
-    top: -20px;
-}
-
-.mejllink {
-    color: white;
-} */
-
-.ikonice{
+.icons{
     text-align: center;
 }
 
-#matfSlika {
+#matfPicture {
     position: relative;
     top: -27px;
     width: 50px;
     left: -20px;
 }
 
-#matfSlika:hover{
+#matfPicture:hover{
     opacity: 0.5;
 }
 
-#alasSlika {
+#alasPicture {
     position: relative;
     top: -27px;
     width: 45px;
     left: 0px;
 }
 
-#alasSlika:hover{
+#alasPicture:hover{
     opacity: 0.5;
 }
 
-#gmailSlika {
+#gmailPicture {
     position: relative;
     top: -20px;
     width: 40px;
     left: 20px;
 }
 
-#gmailSlika:hover{
+#gmailPicture:hover{
     opacity: 0.5;
 }
 
-#githubSlika {
+#githubPicture {
     position: relative;
     top: -20px;
     width: 40px;
     left: 30px;
 }
 
-#githubSlika:hover {
+#githubPicture:hover {
     opacity: 0.5;
 }
 
-#gitlabSlika {
+#gitlabPicture {
     position: relative;
     top: -15px;
     width: 55px;
     left: 30px;
 }
 
-#gitlabSlika:hover {
+#gitlabPicture:hover {
     opacity: 0.5;
 }
-
-/*
-#opis {
-    position: relative;
-    top: -60px;
-    text-align: center;
-    font-family: 'Bai Jamjuree Light';
-    font-size: 18px;
-}
-*/
 
 nav {
     position: absolute;
@@ -138,49 +110,41 @@ h3 {
     font-size: 20px;
 }
 
-#prva {
-    /*border: 2px solid black;
-    height: 450px; */
+#first {
     margin: 5px 50px 5px 20px;
     position: relative;
     left: 20%;
 }
 
-#druga {
-    /*border: 2px solid black; 
-    height: 450px;*/
+#second {
     vertical-align: top;
     margin: 5px 10px 5px 20px;
     position: relative;
     left: 20%;
 }
 
-#treca {
-    /*border: 2px solid black;
-    height: 450px; */
+#third {
     vertical-align: top;
     margin: 5px 50px 5px 20px;
     position: relative;
     left: 20%;
 }
 
-#cetvrta {
-    /*border: 2px solid black;
-    height: 450px; */
+#fourth {
     vertical-align: top;
     margin: 5px 10px 5px 20px;
     position: relative;
     left: 20%;
 }
 
-.predmeti {
-    list-style: url('ikonice/komp.jpg');
+.courses {
+    list-style: url('icons/comp.jpg');
     cursor: pointer;
     font-size: 17px;
 }
 
-.materijali {
-    list-style: url('ikonice/mouse.png');
+.materials {
+    list-style: url('icons/mouse.png');
     position: relative;
     left: -15px;
 }
