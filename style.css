@@ -1,167 +1,167 @@
 @font-face {
-    font-family: 'Bai Jamjuree Bold';
-    src: url('fonts/BaiJamjuree-Bold.ttf');
+  font-family: 'Bai Jamjuree Bold';
+  src: url('fonts/BaiJamjuree-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'Bai Jamjuree Light';
-    src: url('fonts/BaiJamjuree-Light.ttf');
+  font-family: 'Bai Jamjuree Light';
+  src: url('fonts/BaiJamjuree-Light.ttf');
 }
 
 body {
-    background-color: white;
+  background-color: white;
 }
 
 #whiteHeader {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
 }
 
 #header {
-    position: absolute;
-    top: 50px;
-    left: 0;
-    width: 100%;
-    height: 300px;
-    background-color: rgb(41, 41, 41);
-    color: white;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-color: rgb(41, 41, 41);
+  color: white;
 }
 
 #name {
-    text-align: center;
-    font-size: 55px;
-    font-family: 'Bai Jamjuree Bold';
-    position: relative;
-    top: 0px;
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Bai Jamjuree Bold', sans-serif;
+  position: relative;
+  top: 0px;
 }
 
-.icons{
-    text-align: center;
+.icons {
+  text-align: center;
 }
 
 #matfPicture {
-    position: relative;
-    top: -27px;
-    width: 50px;
-    left: -20px;
+  position: relative;
+  top: -27px;
+  width: 50px;
+  left: -20px;
 }
 
-#matfPicture:hover{
-    opacity: 0.5;
+#matfPicture:hover {
+  opacity: 0.5;
 }
 
 #alasPicture {
-    position: relative;
-    top: -27px;
-    width: 45px;
-    left: 0px;
+  position: relative;
+  top: -27px;
+  width: 45px;
+  left: 0px;
 }
 
-#alasPicture:hover{
-    opacity: 0.5;
+#alasPicture:hover {
+  opacity: 0.5;
 }
 
 #gmailPicture {
-    position: relative;
-    top: -20px;
-    width: 40px;
-    left: 20px;
+  position: relative;
+  top: -20px;
+  width: 40px;
+  left: 20px;
 }
 
-#gmailPicture:hover{
-    opacity: 0.5;
+#gmailPicture:hover {
+  opacity: 0.5;
 }
 
 #githubPicture {
-    position: relative;
-    top: -20px;
-    width: 40px;
-    left: 30px;
+  position: relative;
+  top: -20px;
+  width: 40px;
+  left: 30px;
 }
 
 #githubPicture:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 #gitlabPicture {
-    position: relative;
-    top: -15px;
-    width: 55px;
-    left: 30px;
+  position: relative;
+  top: -15px;
+  width: 55px;
+  left: 30px;
 }
 
 #gitlabPicture:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 nav {
-    position: absolute;
-    left: -5%;
-    top: 380px;
-    width: 80%;
-    font-family: 'Bai Jamjuree Light';
-    align-content: center;
+  position: absolute;
+  left: -5%;
+  top: 380px;
+  width: 80%;
+  font-family: 'Bai Jamjuree Light', sans-serif;
+  align-content: center;
 }
 
 h3 {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #first {
-    margin: 5px 50px 5px 20px;
-    position: relative;
-    left: 20%;
+  margin: 5px 50px 5px 20px;
+  position: relative;
+  left: 20%;
 }
 
 #second {
-    vertical-align: top;
-    margin: 5px 10px 5px 20px;
-    position: relative;
-    left: 20%;
+  vertical-align: top;
+  margin: 5px 10px 5px 20px;
+  position: relative;
+  left: 20%;
 }
 
 #third {
-    vertical-align: top;
-    margin: 5px 50px 5px 20px;
-    position: relative;
-    left: 20%;
+  vertical-align: top;
+  margin: 5px 50px 5px 20px;
+  position: relative;
+  left: 20%;
 }
 
 #fourth {
-    vertical-align: top;
-    margin: 5px 10px 5px 20px;
-    position: relative;
-    left: 20%;
+  vertical-align: top;
+  margin: 5px 10px 5px 20px;
+  position: relative;
+  left: 20%;
 }
 
 .courses {
-    list-style: url('icons/comp.jpg');
-    cursor: pointer;
-    font-size: 17px;
+  list-style: url('icons/comp.jpg');
+  cursor: pointer;
+  font-size: 17px;
 }
 
 .materials {
-    list-style: url('icons/mouse.png');
-    position: relative;
-    left: -15px;
+  list-style: url('icons/mouse.png');
+  position: relative;
+  left: -15px;
 }
 
 li {
-    padding: 5px;
+  padding: 5px;
 }
 
 a {
-    text-decoration-line: none;
-    color: rgb(133, 0, 110);
+  text-decoration-line: none;
+  color: rgb(133, 0, 110);
 }
 
 a:hover {
-    color: rgb(253, 154, 171);
+  color: rgb(253, 154, 171);
 }
 
 a:visited {
-    color: rgb(160, 71, 85);
+  color: rgb(160, 71, 85);
 }
