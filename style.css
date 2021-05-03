@@ -35,7 +35,6 @@ body {
   font-size: 55px;
   font-family: 'Bai Jamjuree Bold', sans-serif;
   position: relative;
-  top: 0px;
 }
 
 .icons {
@@ -57,7 +56,6 @@ body {
   position: relative;
   top: -27px;
   width: 45px;
-  left: 0px;
 }
 
 #alasPicture:hover {
