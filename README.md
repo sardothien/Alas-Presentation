@@ -15,6 +15,5 @@ Open `index.html` file in your browser.
 ## Preview
 ![alas](https://user-images.githubusercontent.com/48223190/115896988-46667b80-a45c-11eb-872d-3db1db766b85.jpg)
 
-
 ## Note
 Materials from website aren't posted in this repo.
